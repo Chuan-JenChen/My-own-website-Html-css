@@ -1,0 +1,171 @@
+body {
+    background-color:	#ECF5FF;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+#allpage {
+    width:90%;
+    margin:0px auto;
+    /*border: 2px solid red;*/
+}
+header {
+    width:100%;
+}
+.logo-img {
+    width:100%;
+}
+.menu {
+    width:100%;
+    overflow:auto;            
+    background-color:#ACD6FF;
+    border-radius:5px;
+    list-style-type:none;
+   
+}
+.menu li {
+    width:7em;
+    line-height:2.5em;
+    float:left;
+    
+}
+.menu li a {
+    display:block;
+    text-align:center;
+    color:	#005AB5;
+}
+.menu li a:link {
+    text-decoration:none;
+}
+.menu li a:hover {
+    background-color:	#0080FF	;
+    color:	#ffffff;
+    border-radius:5px;
+}
+#content {
+    width:100%;
+    overflow:auto;
+}
+.article {
+    width:70%;
+    float:left;
+}
+.section {
+    background-color:white;
+    border-radius:5px;
+    margin:40px 0px;
+    padding:20px 26px;
+    margin-right: 3em;
+    line-height:2em;
+}
+.section1 {
+    background-color:white;
+    border-radius:5px;
+    margin:10px 0px;
+    padding:20px 26px;
+    line-height:2em;
+    float: right;
+}
+.section2 {
+    background-color:white;
+    border-radius:5px;
+    margin:10px 0px;
+    padding:20px 26px;
+    line-height:2em;
+    float: right; 
+    
+    
+}
+.list1 {
+    background-color: #ffffff;
+    border-radius:5px;
+    margin:10px 10px;
+    padding:20px 20px;
+    line-height:2em;
+    float: left;
+    position:relative;
+    list-style-image:url(../images/HomeWork1/fire.png) ;
+       
+}
+.label1 {
+    background-color: #ffffff;
+    border-radius:5px;
+    margin:0px 0px;
+    padding:20px 20px;
+    line-height:2em;
+    float: right;
+    position:relative;       
+}
+#iframe1{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius:5px;
+    margin:20px 0px;
+    padding:20px 26px;
+    line-height:2em;
+    float: left;
+    position:relative;   
+
+}
+
+.st1{
+    width: px;
+    /*border-bottom: 2px dashed #000;*/
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.t1{
+    width: 90px;/*inline元素設定寬度沒反應，但是加上浮動就可以顯示出來*/
+    float: left;
+    border: 1px solid red; 取消註解可以更了解
+    text-align: right;/*向右對齊*/
+}
+
+ .pic{
+    width: 235px;
+    height: 400px;
+    margin: 10px;
+    padding-right: 10px;
+    /*border: 2px solid;
+    background-color: #005AB5;*/
+    float: left;
+}
+.pic img {
+    max-width: 100%;
+    max-height: 100%;
+} 
+.pic1{
+    width: 235px;
+    height: 400px;
+    margin: 10px;
+    /*border: 2px solid;
+    background-color: #005AB5;*/
+    float: right;
+}
+.pic1 img {
+    max-width: 100%;
+    max-height: 100%;
+} 
+/*.img1{
+    border: 5px solid orange;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+    float:left;  
+    /*float:left; margin: 100px*/
+    
+
+ .aside {
+    width:30%;
+    float:right;
+    
+}
+footer {
+    background-color:	#ACD6FF;
+    border-radius:5px;
+    text-align:center;
+    line-height:2.5em;
+    color:	#4F4F4F;
+}
